@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px 0;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+#input-section {
+    margin: 20px 0;
+}
+
+#symbol {
+    padding: 10px;
+    width: 200px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#chart-section {
+    margin-top: 40px;
+}
+
+canvas {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#prediction-section {
+    margin-top: 20px;
+}
+
+footer {
+    margin-top: 50px;
+    font-size: 14px;
+}
